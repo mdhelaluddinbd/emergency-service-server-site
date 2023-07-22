@@ -12,7 +12,7 @@ const ambulanceSchema = new mongoose.Schema({
         type: String,
         require: true,
       },
-      phone: {
+      phone: { 
         type: String,
         require: true,
       },

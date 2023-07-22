@@ -9,7 +9,7 @@ const bloodBankSchema = new mongoose.Schema({
         require: true,
       },
       address: {
-        type: String,
+        type: String, 
         require: true,
       },
       phone: {
